@@ -41,8 +41,33 @@ benrjg@BenRJG:~/Desktop/UbuntuSetup$ git commit
 Version Tracking
 ----------------
 **git status** to see changes made
+benrjg@BenRJG:~/Desktop/UbuntuSetup$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   GitSetup.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
 
 **git commit file.md**
+benrjg@BenRJG:~/Desktop/UbuntuSetup$ git commit GitSetup.md 
+[master 0c002ad] Added Version Tracking Tutorial
+ 1 file changed, 16 insertions(+)
+
+Add to local repository
+-----------------------
+**cd directory**
+**git remote add origin https://github.com/NodrogJRB/UbuntuSetup.git**
+
+**git config --global push.default simple**
+**git push --set-upstream origin master**
+**git push -u origin**
+
+from now on can just use
+**git push**
 
 Using Markdown
 --------------
