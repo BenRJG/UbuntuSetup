@@ -27,6 +27,22 @@ Commit repository
 -----------------
 **git commit**
 enter commit message
+ctrl + O to save
+ctrl + O to exit
+benrjg@BenRJG:~/Desktop/UbuntuSetup$ git commit
+[master (root-commit) b13145a] Added Contents, GitSetup and Install files
+ 3 files changed, 44 insertions(+)
+ create mode 100644 Contents.md
+ create mode 100644 GitSetup.md
+ create mode 100644 Install.md
+
+**git log** shows log of changes
+
+Version Tracking
+----------------
+**git status** to see changes made
+
+**git commit file.md**
 
 Using Markdown
 --------------
